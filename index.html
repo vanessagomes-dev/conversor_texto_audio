@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">   <!-- indica que o texto será exibido da esquerda para a direita, como é o padrão para o português.-->
+  <head>
+    <meta charset="utf-8">  
+    <title>Conversor de Texto em JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+      <header>Texto para Fala</header>
+
+      <form action="#">
+        <div class="row">
+          <label for="text">Insira o Texto</label>
+          <textarea id="text" placeholder="Digite o texto aqui..."></textarea>
+        </div>
+
+        <div class="row">
+          <label for="voice">Selecione a Voz</label>
+          <div class="outer">
+            <select id="voice"></select>
+          </div>
+        </div>
+
+        <button id="speech-btn">Converter para Fala</button>
+      </form>
+
+    </div> <!--fim wrapper-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
